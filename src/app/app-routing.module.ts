@@ -11,6 +11,7 @@ import { ClientsComponent } from './clients/clients.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { BlogComponent } from './blog/blog.component';
 import { ArticleComponent } from './article/article.component';
+import { NotfoundComponent } from './notfound/notfound.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -22,7 +23,9 @@ const routes: Routes = [
   { path: 'clients', component: ClientsComponent },
   { path: 'pricing', component: PricingComponent },
   { path: 'blog', component: BlogComponent },
-  { path: 'article/:id', component: ArticleComponent }
+  { path: 'article/:id', component: ArticleComponent },
+  { path: '404', component: NotfoundComponent },
+  { path: '**', redirectTo: '/404' },
 ];
 
 @NgModule({
