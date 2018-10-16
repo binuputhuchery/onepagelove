@@ -222,5 +222,52 @@ export const configuration = {
       icon: 'behance',
       name: 'Behance',
     }
-  ]
+  ],
+
+  blog: {
+    tagline: 'MY BLOG',
+    title: 'Title goes here...',
+    posts: [
+      {
+        id: 1,
+        title: 'First blog title goes here...',
+        author: 'BP',
+        publishdate: '2018-10-19T07:22Z',
+        image: '/gallery-images/gallery-image-1.jpg',
+        excert: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna',
+      },
+      {
+        id: 2,
+        title: 'Second blog title goes here...',
+        author: 'BP',
+        publishdate: '2018-10-19T07:22Z',
+        image: '/gallery-images/gallery-image-2.jpg',
+        excert: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna',
+      },
+      {
+        id: 3,
+        title: 'Third blog title goes here...',
+        author: 'BP',
+        publishdate: '2018-10-19T07:22Z',
+        image: '/gallery-images/gallery-image-3.jpg',
+        excert: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna',
+      },
+      {
+        id: 4,
+        title: 'Fourth blog title goes here...',
+        author: 'BP',
+        publishdate: '2018-10-19T07:22Z',
+        image: '/gallery-images/gallery-image-4.jpg',
+        excert: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna',
+      },
+      {
+        id: 5,
+        title: 'Fifth blog title goes here...',
+        author: 'BP',
+        publishdate: '2018-10-19T07:22Z',
+        image: '/gallery-images/gallery-image-5.jpg',
+        excert: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna',
+      },
+    ],
+  }
 };
