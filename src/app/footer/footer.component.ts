@@ -8,7 +8,7 @@ import { ConfigService } from '../config.service';
 })
 export class FooterComponent implements OnInit {
 
-  footer = {};
+  footer: any;
 
   constructor(private config: ConfigService) { }
 

@@ -8,7 +8,7 @@ import { ConfigService } from '../config.service';
 })
 export class PricingComponent implements OnInit {
 
-  pricing = {};
+  pricing: any;
 
   constructor(private config: ConfigService) { }
 
